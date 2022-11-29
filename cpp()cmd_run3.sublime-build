@@ -1,0 +1,6 @@
+{
+    "cmd": ["g++.exe", "-std=c++17", "-o", "$file_base_name", "$file", "&&", "start", "cmd", "/c", "$file_base_name & echo. & echo. & pause"],
+    "shell": true,
+    "selector": "source.c++"
+}
+//source: https://stackoverflow.com/questions/32717114/how-to-run-c-in-command-prompt-from-sublime-text
